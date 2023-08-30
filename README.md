@@ -1,5 +1,5 @@
 
-# Setup Docker Para Projetos Laravel (10)
+# Setup Docker Para Projetos Laravel (10) Docker com  php (8.2), mysql 8.0.33, nginx, redis, queue e mailhog
 ### Passo a passo
 Clone Repositório
 ```sh
