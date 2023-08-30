@@ -39,7 +39,7 @@ services:
     ports:
       - 3307:3306
     volumes:
-      - C:/Users\Terminal 01/MySQL/Mysql Server 8.0.33/:/var/lib/mysql
+      - ./.docker/mysql/:/var/lib/mysql
     environment:
       MYSQL_DATABASE: ${DB_DATABASE}
       MYSQL_ROOT_PASSWORD:  ${DB_PASSWORD}
