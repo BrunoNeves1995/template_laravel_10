@@ -70,15 +70,16 @@ services:
       - redis
     networks:
       - docker-laravel
-  mailhog:
-    image: mailhog/mailhog
-    logging:
-      driver: 'none'
-    ports:
-      - "1025:1025"
-      - "8025:8025"
-    networks:
-      - docker-laravel
+# mailhog
+  # mailhog:
+  #   image: mailhog/mailhog
+  #   logging:
+  #     driver: 'none'
+  #   ports:
+  #     - "1025:1025"
+  #     - "8025:8025"
+  #   networks:
+  #     - docker-laravel
 
 networks:
   docker-laravel:
